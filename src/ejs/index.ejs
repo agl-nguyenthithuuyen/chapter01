@@ -5,17 +5,373 @@ const description = '';
 const keyword = '';
 %>
 <html lang="ja">
+
 <head>
-    <%- include('partials/_head', { basePath, title, description, keyword }); %>
+  <%- include('partials/_head', { basePath, title, description, keyword }); %>
 </head>
+
 <body>
-    <%- include('layout/_header', { basePath }); %>
+  <%- include('layout/_header', { basePath }); %>
 
-    <main class="c-main">
+  <main class="c-main">
+    <div class="c-main__content">
+      <h1>家づくりの、こんな不安やお悩みないですか？</h1>
+      <div class="c-main__content--description">
+        <div class="c-section__title">
+          <div class="c-section__title--1">
+            <img src="./assets/images/number01.png" alt="" style="margin-left: 55px;">
+            <div class="c-section__title--content">
+              <img src="./assets/images/shape.png" alt="">
+              <p>子育てにはどんな家が良いんだろう？</p>
+            </div>
+          </div>
+          <div class="c-section__title--1 sp-title">
+            <img src="./assets/images/number02.png" alt="" style="margin-left: 55px;">
+            <div class="c-section__title--content">
+              <img class="sp-img2" src="./assets/images/shape.png" alt="">
+              <div class="c-section__title--content2 ">
+                <img class="sp-contentimg" src="./assets/images/text2.png" alt="">
+              </div>
+              <p>理想の家って実現できるの？</p>
+            </div>
+          </div>
+          <div class="c-section__title--1">
+            <img src="./assets/images/number03.png" alt="" style="margin-left: 55px;">
+            <div class="c-section__title--content">
+              <img src="./assets/images/shape.png" alt="">
+              <div class="c-section__title--content2">
+                <img src="./assets/images/text3.png" alt="">
+              </div>
+              <p>暮らしのスタイルがイメージできない</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    </main>
-    <!-- end main -->
+    <div class="p-project">
+      <div class="p-project__title">
+        <p>はじめての家づくりが具体的に進む、ご来店の</p>
+        <p style="font-family: 'Yu Mincho';color: #252A6D;font-size: 4.6rem;">3つのメリット</p>
+      </div>
+      <h1>WELCOME TO MODELHOUSE</h1>
+      <div class="p-project__item">
+        <img class="icon-sp padding-1" src="./assets/images/icon01.png">
+        <img class="p-img2" src="./assets/images/concept001.png" alt="">
+      </div>
+      <div class="p-project__item">
+        <img class="p-img2 p-icon2" src="./assets/images/concept002.png" alt="">
+        <img class="icon-sp padding-2" src="./assets/images/icon02.png" alt="">
+      </div>
+      <div class="p-project__item">
+        <img class="icon-sp padding-3" src="./assets/images/icon03.png" alt="">
+        <img class="p-img2" src="./assets/images/concept003.png" alt="">
+      </div>
+    </div>
+    <div class="p-point">
+      <div class="p-point__imgleft">
+        <img src="./assets/images/icon-event.png" alt="">
+      </div>
+      <div class="p-point__top">
+        <h1>RECOMMENDED POINT</h1>
+        <div class="p-point__top--p">
+          <p class="point-1">イベント・見学会の </p>
+          <p class="point-2">見どころ！</p>
+        </div>
+      </div>
+      <div class="p-point__bot">
+        <div class="p-point__bot--list">
+          <div class="item-point">
+            <img class="item-point__img" src="./assets/images/09.png" alt="">
+            <h3 class="item-point__title">豊富な+FUNのオプション</h3>
+            <p class="item-point__content">1,100万円の家をベースに、ライフスタイルにあった+FUNのオプションを組み合わせられます。価格が決まった明朗なシステムで、GOOD
+              DESIGN賞を受賞。</p>
+          </div>
+          <div class="item-point">
+            <img class="item-point__img" src="./assets/images/10.png" alt="">
+            <h3 class="item-point__title">シンプルな四角い外観</h3>
+            <p class="item-point__content">住む方の生活に馴染むよう、シンプルでムダを削ぎ落とした四角い家。凹凸のないレイアウトで、室内も広々した空間を実現。</p>
+          </div>
+          <div class="item-point">
+            <img class="item-point__img" src="./assets/images/11.png" alt="">
+            <h3 class="item-point__title">ガルバリウム鋼板の外壁・屋根</h3>
+            <p class="item-point__content">外壁・屋根に使われているガルバリウム鋼板は、無骨で美しいZERO-CUBEの外観の特徴。<br>
+              耐久・耐熱性など機能面に優れた、高品質の素材です。</p>
+          </div>
+          <div class="item-point">
+            <img class="item-point__img" src="./assets/images/12.png" alt="">
+            <h3 class="item-point__title">家族を感じるリビング</h3>
+            <p class="item-point__content">1階が見渡せる対面キッチンでは、家族との会話も弾みます。吹き抜けのリビングイン階段は、居間を導線の中心に考えた、家族のコミュニケーションが生まれる設計。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="p-project3">
+      <img src="./assets/images/presentpc.png" alt="" style="width: 70%;">
+    </div>
+    <div class="p-design">
+      <img class="p-design__icon1" src="./assets/images/13.png" alt="">
+      <div class="p-design__icon--goc">
+        <img class="icon-goc" src="./assets/images/icon-goc.png" alt="">
+      </div>
+      <div class="p-design__text">
+        <h2>DESIGN</h2>
+        <div class="p-design__text--hr">
+          <hr style="width: 60px;">
+        </div>
+        <p class="p-design__text--p1">シンプルで美しいデザイン、<br> いつまでも・誰にでも愛される空間に。</p>
+        <p class="p-design__text--p2">長く愛される「居心地の良い場所」はシンプルなルールで作られるもの。<br>
+          壁の色を白で統一したシンプルな間取り。<br>
+          余計な装飾は施さず、こだわりの家具やインテリアを <br>
+          あなた色に合わせてコーディネートを楽しめる<br>
+          年齢や性別を意識しない誰にでも愛される空間です。</p>
+      </div>
+      <div class="p-design__youtube">
+        <iframe width="700px" height="390px" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+      </div>
+    </div>
+    <div class="p-project__plan">
+      <h1>PLAN</h1>
+      <hr style="width: 60px;">
+      <div class="p-project__plan--top">
+        <img style="width: 52%; height: 45%;" src="./assets/images/1F.png" alt="">
+        <img style="position: absolute; left: 30px; bottom: -20px;" src="./assets/images/text1F.png" alt="">
+        <img style="width: 52%; height: 45%;" src="./assets/images/2F.png" alt="">
+        <img class="plan-2f" src="./assets/images/text2F.png" alt="">
+      </div>
+      <div class="p-project__plan--text">
+        <p>1階床面積 　192.53㎡（58.24坪）</p>
+        <p>2階床面積　139.01㎡（42.05坪）</p>
+        <p>延床面積　331.54㎡（100.29坪）</p>
+      </div>
+    </div>
+    <div class="p-table">
+      <div class="p-table__list">
+        <div class="p-table__list--item">
+          <p class="item-title">商品プラン</p>
+          <p>ZERO-CUBE</p>
+        </div>
+        <div class="p-table__list--item">
+          <p class="item-title">構造</p>
+          <p>木造2階建て</p>
+        </div>
+        <div class="p-table__list--item">
+          <p class="item-title">設備・仕様</p>
+          <div class="table-item">
+            <p>W断熱/TOPS工法</p>
+            <p>無垢材・自然素材</p>
+            <p>高性能住宅</p>
+            <p>玄関共有タイプ</p>
+            <p>防音構造床</p>
+          </div>
+        </div>
+        <div class="p-table__list--item">
+          <p class="item-title">空間</p>
+          <div class="table-item">
+            <p>二世帯・多世帯</p>
+            <p>1、2階リビング</p>
+            <p>吹抜け</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="p-finan">
+      <div class="p-finan__top">
+        <h1>FINANCE</h1>
+        <hr style="width: 58px;margin-bottom: 60px;">
+        <div class="p-finan__top--txt">
+          <p>3,400万円借入の場合</p>
+        </div>
+      </div>
+      <div class="p-finan__bot">
+        <div class="p-finan__bot--left">
+          <div class="listitem-text">
+            <img src="./assets/images/text-finan.png" alt="">
+          </div>
+        </div>
+        <div class="p-finan__bot--right">
+          <div class="listitem-text">
+            <h3>月々のお支払い</h3>
+            <img src="./assets/images/icon-so.png" alt="">
+            <p>土地付建物販売価格　3,400万円（税込）</p>
+          </div>
+          <div class="listitem-icon">
+            <img src="./assets/images/icon-0.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="p-web">
+      <div class="p-web__title">
+        <div class="p-web__title--text">
+          <h1>WEB来場予約が</h1>
+          <h1 style="color: #252A6D; font-family: 'Yu Gothic';">オススメ！</h1>
+        </div>
+        <div style="font-size: 2.7rem;line-height: 37px;color: #231815;font-family: 'Yu Gothic';">
+          <p>待ち時間ナシ！混雑をきにせず来場OK！</p>
+          <p>経験豊富なスタッフがしっかりとご対応いたします。</p>
+        </div>
+      </div>
+      <div class="p-web__content">
+        <div class="p-web__content--item" style="background-color: #231815;">
+          <img src="./assets/images/icon-mail.png" alt="">
+          <h3>WEB予約</h3>
+          <hr style="width: 235px;">
+          <p>入力フォームに必要事項を入力</p>
+        </div>
+        <div class="p-web__content--img">
+          <img src="./assets/images/icon-pass.png" alt="">
+        </div>
+        <div class="p-web__content--item" style="background-color: #565F64;">
+          <img src="./assets/images/icon-person.png" alt="">
+          <h3>ご来場</h3>
+          <hr style="width: 235px;">
+          <p>来場されたら受付をお願いします</p>
+        </div>
+        <div class="p-web__content--img">
+          <img src="./assets/images/icon-pass.png" alt="">
+        </div>
+        <div class="p-web__content--item" style="background-color: #565F64;">
+          <img src="./assets/images/edit.png" alt="">
+          <h3>アンケート記入</h3>
+          <hr style="width: 235px;">
+          <p>アンケート記入後、丁寧にご説明</p>
+        </div>
+        <div class="p-web__content--img">
+          <img src="./assets/images/icon-pass.png" alt="">
+        </div>
+        <div class="p-web__content--item" style="background-color: #565F64;">
+          <img src="./assets/images/doc.png" alt="">
+          <h3>ご見学・ご説明</h3>
+          <hr style="width: 235px;">
+          <p>何でもお気軽に相談してください</p>
+        </div>
+        <div class="p-web__content--img">
+          <img src="./assets/images/icon-pass.png" alt="">
+        </div>
+        <div class="p-web__content--item" style="background-color: #7A89A8;">
+          <img src="./assets/images/gift.png" alt="">
+          <h3>特典プレゼント！</h3>
+          <hr style="width: 235px;">
+          <p>QUOカードプレゼント</p>
+        </div>
+      </div>
+    </div>
+    <div class="p-infor">
+      <div class="p-infor__content">
+        <div class="p-infor__content--top">
+          <div class="text-top">
+            <h3>ご来場のお客様へ</h3>
+            <p>新型コロナウイルス感染症予防対策につきまして</p>
+          </div>
+          <div class="text-bot">
+            <p>ウェブココでは新型コロナウイルス感染拡大防止のため、対策を講じておりますので安心してご利用ください。</p>
+          </div>
+        </div>
+        <div class="p-infor__content--bot">
+          <div class="infor-list">
+            <div class="infor-list__item none-boder sp-boder1">
+              <div class="infor-list__item--img">
+                <img src="./assets/images/if01.png" alt="">
+              </div>              
+              <p>常時店内・モデルハウス
+                換気中</p>
+            </div>
+            <div class="infor-list__item sp-boder2 sp-boderright">
+              <div class="infor-list__item--img">
+              <img src="./assets/images/if02.png" alt="">
+              </div>
+              <p>スタッフの
+                マスク着用義務化</p>
+            </div>
+            <div class="infor-list__item sp-boderleft">
+              <div class="infor-list__item--img">
+                <img src="./assets/images/if03.png" alt="">
+              </div>              
+              <p>お客様へのマスク着用
+                をお願いしています</p>
+            </div>
+            <div class="infor-list__item sp-boderright">
+              <div class="infor-list__item--img">
+                <img src="./assets/images/if04.png" alt="">
+              </div>
+              
+              <p>ソーシャルディスタンス
+                （2m）を維持した打合せ</p>
+            </div>
+            <div class="infor-list__item sp-boderleft">
+              <div class="infor-list__item--img">
+                <img src="./assets/images/if05.png" alt="">
+              </div>
+              
+              <p>発熱のあるスタッフ・
+                お客様の出社・入店禁止</p>
+            </div>
+            <div class="infor-list__item none-boder none-bot sp-boderright">
+              <div class="infor-list__item--img">
+                <img src="./assets/images/if06.png" alt="">
+              </div>
+              
+              <p>こまめな除菌</p>
+            </div>
+            <div class="infor-list__item none-bot sp-boderleft">
+              <div class="infor-list__item--img">
+                <img src="./assets/images/if07.png" alt="">
+              </div>
+              
+              <p>咳エチケットを
+                徹底しています</p>
+            </div>
+            <div class="infor-list__item none-bot sp-boderright">
+              <div class="infor-list__item--img">
+                <img src="./assets/images/if08.png" alt="">
+              </div>
+              
+              <p>スタッフ・お客様
+                アルコール除菌</p>
+            </div>
+            <div class="infor-list__item none-bot sp-boder9">
+              <div class="infor-list__item--img">
+                <img src="./assets/images/if09.png" alt="">
+              </div>
+              
+              <p>web設計打合せを
+                推奨しています</p>
+            </div>
+            <div class="infor-list__item none-bot sp-boder10">
+              <div class="infor-list__item--img">
+                <img src="./assets/images/if10.png" alt="">
+              </div>
+              
+              <p>webおうち相談会を
+                推奨しています</p>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+    <div class="p-image">
+      <div class="p-image__item">
+        <img src="./assets/images/map.png" alt="">
+      </div>
+      <div class="p-image__item">
+        <img src="./assets/images/access.png" alt="">
+      </div>
+    </div>
+    <div class="p-present">
+      <img src="./assets/images/presentpc.png" alt="">
+    </div>
+    <div class="p-contact">
+      <p>CONTACT FORM</p>
+    </div>
+    <div class="p-logo">
+      <img src="./assets/images/logo.png" alt="">
+    </div>
+  </main>
+  <!-- end main -->
 
-    <%- include('layout/_footer', { basePath }); %>
+  <%- include('layout/_footer', { basePath }); %>
 </body>
+
 </html>
